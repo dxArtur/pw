@@ -12,6 +12,9 @@ public class Teacher extends Peaple {
         this.classroom = classroom;
     }
 
+    public Teacher() {
+    }
+
     public String getClassroom(){
         return this.classroom;
     }

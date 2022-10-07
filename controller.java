@@ -3,9 +3,10 @@ import java.util.jar.Attributes.Name;
 import model.Student;
 import model.Teacher;
 
-public class controller{
+public abstract class controller{
     Model[] model;
     View view;
+    // isso de cima tá errado
 
     static void addTeacher(String name, String phone, int oldAge, String classroom){
         Teacher tchr = new Teacher(name, phone, oldAge, classroom);
@@ -22,9 +23,5 @@ public class controller{
     }
 
 
-
-}
-
-public static void main(String[] args){
 
 }
