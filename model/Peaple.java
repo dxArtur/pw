@@ -1,5 +1,5 @@
 package model;
-abstract public class Peaple {
+public abstract class Peaple {
     protected String name;
     protected String phone;
     protected int oldAge;
