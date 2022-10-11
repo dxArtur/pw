@@ -1,16 +1,12 @@
 package view;
-
 import java.util.Scanner;
 
-import model.Student;
+import model.Teacher;
 
-public class viewAddStudent{
+public class viewAddTeacher{
 
-    static Student addStudent(){
-
-
+    static Teacher addTeacher(){
         Scanner read = new Scanner(System.in);
-        View.clearBuffer(read);
         System.out.println("============================"); 
         System.out.println("Please type your name:");
         String name = read.nextLine();
@@ -18,16 +14,18 @@ public class viewAddStudent{
         String Phone = read.nextLine();
         System.out.println("Please type your oldAge:");
         int oldAge = read.nextInt();
-        System.out.println("Please type your registration");
-        String registration = read.nextLine();
+        System.out.println("Please type your classroom");
+        String classroom = read.nextLine();
         read.close();
 
-        Student student = new Student();
-        student.setName(name);
-        student.setPhone(Phone);
-        student.setOldAge(oldAge);
-        student.setRegistration(registration);
+        Teacher teacher = new Teacher();
+        teacher.setName(name);
+        teacher.setPhone(Phone);
+        teacher.setOldAge(oldAge);
+        teacher.setClassroom(classroom);
 
-    return student;
+        return teacher;
     }
 }
+
+

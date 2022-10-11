@@ -18,7 +18,7 @@ public class Teacher extends Peaple {
     public String getClassroom(){
         return this.classroom;
     }
-    public void setclassroom(String classroom){
+    public void setClassroom(String classroom){
         this.classroom = classroom;
     }
     public String toString(){

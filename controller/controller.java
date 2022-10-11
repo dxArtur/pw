@@ -1,12 +1,14 @@
-import java.util.jar.Attributes.Name;
+package controller;
+import java.util.ArrayList;
 
 import model.Student;
 import model.Teacher;
+import view.View;
 
-public abstract class controller{
-    Model[] model;
-    View view;
-    // isso de cima tá errado
+public class controller{
+    static ArrayList model = new ArrayList<>();
+    static View view = new View();
+    
 
     static void addTeacher(String name, String phone, int oldAge, String classroom){
         Teacher tchr = new Teacher(name, phone, oldAge, classroom);
@@ -18,9 +20,9 @@ public abstract class controller{
         
     }
 
-    static void run(){
+    //static void run(){
 
-    }
+    //}
 
 
 

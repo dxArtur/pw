@@ -1,6 +1,7 @@
 package model;
 
 public class Student extends Peaple {
+    public static Student student;
     protected String registration;
     /**
      * @param name
