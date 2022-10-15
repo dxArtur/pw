@@ -1,6 +1,8 @@
 package model;
 
+
 public abstract class Peaple {
+
     protected String name;
     protected String phone;
     protected int oldAge;
@@ -40,6 +42,7 @@ public abstract class Peaple {
         return "name: " + this.name + ", phone: " + this.phone + " and oldAge: " + this.oldAge;
     }
 
+<<<<<<< HEAD
 /*
     public static void main(String[] args) {
 
@@ -47,4 +50,7 @@ public abstract class Peaple {
 
     }
     */  
+=======
+
+>>>>>>> ba19b2898614912b1df781bd9abc3f3a37e4c16c
 }
